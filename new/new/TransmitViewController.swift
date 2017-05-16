@@ -12,6 +12,7 @@ import CoreBluetooth
 
 class TransmitViewController: UIViewController, CBPeripheralManagerDelegate {
    // var check: Bool = true
+    var shityou:String = "yeah"
     var beaconRegion: CLBeaconRegion!
     var beaconPeripheralData: NSDictionary!
     var peripheralManager: CBPeripheralManager!
